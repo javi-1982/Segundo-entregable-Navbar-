@@ -5,8 +5,16 @@ body{
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-   
+    
+    background-image: url();
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
 }
+
+
 a{
     text-decoration: none;
     color: black;
@@ -50,7 +58,7 @@ nav a:hover{
     background-color: rgb(172, 170, 170);
     padding: 10px;
     text-align: center;
-    position: static;
+    position: relative;
     bottom: 0;
     width: 98.7%;
 }
@@ -63,15 +71,21 @@ main{
 }
 
 main p{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: rgb(0, 0, 0);
     text-align: center;
-    margin: 1rem 0;
+    margin-top: 5rem;  
 }
-
+main h2{
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 5rem; 
+}
 main form{
     display: flex;
     justify-content: center;
+    margin-top: 1rem;
 }
 
 main form button{
@@ -84,15 +98,47 @@ main form button{
 .agenda:hover{
     background-color: rgb(147, 233, 180);
     color: black;
-    border-style: none;
+    border-style: solid .1rem;
 }
 
 .promo:hover{
     background-color: rgb(147, 233, 180);
     color: black;
-    border-style: none;
+    border-style: solid .1rem;
 }
 
 main img{
     height: 60vh;
+    margin-top: -2.2rem;
 }
+p{
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    margin: 5rem;
+}
+
+.contenedor{ 
+    display: flex;
+    justify-content: center;
+    margin: 0; 
+    flex-wrap: wrap; 
+    column-gap: 15rem;
+    row-gap: 1rem;
+   
+}
+
+.servicios{
+    margin: 0.5rem;
+    width: 8rem;
+    height: 2.5rem;
+    font-size: 1.1rem; 
+    
+    
+}
+h2{
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
