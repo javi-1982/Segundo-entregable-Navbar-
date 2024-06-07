@@ -33,6 +33,12 @@ header{
     align-items: center;
 }
 
+.logo-nombre{
+    color:black;
+    padding: 0%;
+    margin: 0%;
+}
+
 .logo-img{
     height: 80px;
     margin-right: 25px;
@@ -102,35 +108,36 @@ main form button{
     background-color: rgb(147, 233, 180);
     color: black;
     border-style: solid .1rem;
+    cursor: pointer;
 }
 
 .promo:hover{
     background-color: rgb(147, 233, 180);
     color: black;
     border-style: solid .1rem;
+    cursor: pointer;
 }
 
 main img{
     height: 60vh;
-    margin-top: -2.6rem;
+    margin-top: -1rem;
 }
-p{
+section{
     font-size: 1.5rem;
     color: black;
     text-align: center;
     margin: 5rem;
 }
 
-.contenedor{ 
+ul{ 
     height: 100%;
     width: 98%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    column-gap: 15rem;
+    column-gap: 10rem;
     margin-top: 5rem; 
-    margin-bottom: 10rem;
-
+    margin-bottom: 5rem;
 }
 
 .servicios{
@@ -147,8 +154,9 @@ p{
     border-style: solid .1rem;
 }
 
-h2{
+h2 section{
     font-size: 2rem;
     color: rgb(0, 0, 0);
     text-align: center;
+    margin-top: 5rem
 }
